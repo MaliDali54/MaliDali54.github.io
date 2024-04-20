@@ -1,0 +1,13 @@
+body { margin: 0; }
+
+canvas{
+    
+    top:0;
+    left:0;
+}
+main{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    color: rgb(0, 0, 0);
+}
