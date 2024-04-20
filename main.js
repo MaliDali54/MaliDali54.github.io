@@ -1,7 +1,7 @@
 import './styles.css'
 import * as THREE from 'three'; 
 import { Wireframe } from 'three/examples/jsm/Addons.js';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 const scene =new THREE.Scene();
 
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
